@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/opencv/samples/cpp/example_cmake/server1.cpp
+sys/select.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+cstdlib
+-
+cstdio
+-
+cstring
+-
+iostream
+-
+

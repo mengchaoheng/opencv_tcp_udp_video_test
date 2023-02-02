@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/opencv/samples/cpp/example_cmake/udp_cli.cpp
+iostream
+-
+string
+-
+udpsocket.hpp
+/home/parallels/opencv/samples/cpp/example_cmake/udpsocket.hpp
+
+/home/parallels/opencv/samples/cpp/example_cmake/udpsocket.hpp
+cstdio
+-
+string
+-
+unistd.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+

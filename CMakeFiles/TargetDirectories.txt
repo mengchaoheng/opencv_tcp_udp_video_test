@@ -1,0 +1,12 @@
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/rebuild_cache.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/edit_cache.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/udp_srv.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/server2.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/server1.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/server.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/udp_cli.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/client2.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/client1.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/client.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/main.dir
+/home/parallels/opencv/samples/cpp/example_cmake/CMakeFiles/opencv_example.dir
