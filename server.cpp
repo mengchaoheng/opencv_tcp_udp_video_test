@@ -71,7 +71,7 @@ int main(int argc, char** argv)
 		buf[n] = 0;
 		image = imdecode(decode, IMREAD_COLOR);//图像解码
 		imshow("image_recvfrom", image);
-		// if (key = waitKey(100) >= 0) break;
+		if (key = waitKey(100) >= 0) break;
 		// waitKey(5);
 	}
 	return 0;

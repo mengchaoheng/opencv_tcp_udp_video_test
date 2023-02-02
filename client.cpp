@@ -79,7 +79,7 @@ int main(int argc, char** argv)
                 
         unsigned char *encodeImg = new unsigned char[nSize];
 
-        // printf("%d\n", nSize);
+        printf("%d\n", nSize);
 
 		for (int i = 0; i < nSize; i++)
 		{
