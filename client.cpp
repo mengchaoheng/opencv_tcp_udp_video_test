@@ -79,16 +79,27 @@ int main(int argc, char** argv)
                 
         unsigned char *encodeImg = new unsigned char[nSize];
 
-        printf("%d\n", nSize);
+        // printf("%d\n", nSize);
 
 		for (int i = 0; i < nSize; i++)
 		{
 			encodeImg[i] = data_encode[i];
+			// std::cout << data_encode[i] << std::endl;
 		}
         // m_servaddr.sin_family = AF_INET;
         // m_servaddr.sin_port   = htons(PORT_out);
         // m_servaddr.sin_addr.s_addr = htonl(INADDR_ANY);        
+		// printf("%d\n", encodeImg[100]);
+		// char *str = "0123456789"; printf("%.6s\n", str + 1); 
+		// printf("%10.10d\n", encodeImg); 
+		// cout << encodeImg<<endl;
+		unsigned char file_path[1024]="Do not go gentle into that good night";
+		// 会将字符数组当作字符串来输出
+		// Notice: 不是输出数组的首地址
 		
+		// file_path 是一个 char 的地址 即 char* , 所以打印整个 字符串
+		// std::cout << file_path << std::endl;
+
 		sendto(m_sockClient, encodeImg, nSize, 0, (const sockaddr*)& m_servaddr, sizeof(m_servaddr));
 		memset(&encodeImg, 0, sizeof(encodeImg));  //初始化结构体
 		imshow("image_sento", image);
